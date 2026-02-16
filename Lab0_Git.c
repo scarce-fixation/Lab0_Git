@@ -8,7 +8,11 @@
 #define szz 10
 int main()
 {
+
     int array[szz] = { 5,5,7,3,3,2,2,1,1,10 };
+    //int array[szz] = { 5,5,7,3,3,2,2,1,1,2147483647 };
+    //int array[szz] = { -2147483647,5,7,3,3,2,2,1,1, 2147483647 };
+    //int array[szz] = { -2147483648,5,2147483647,3,3,2,2,1,1,10 };
     int max = array[0];
 
     for (int i = 1; i < szz; i++)
