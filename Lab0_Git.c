@@ -5,10 +5,9 @@
 
 #include <stdio.h>
 #include <stdbool.h>
-
+#define szz 10
 int main()
 {
-    const int szz = 10;
     int array[szz] = { 5,5,7,3,3,2,2,1,1,10 };
     int max = array[0];
 
@@ -46,4 +45,6 @@ int main()
     }
 
     printf("countEl = %d", countEl);
+
+    return 0;
 }
